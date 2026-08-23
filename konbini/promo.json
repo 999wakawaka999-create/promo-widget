@@ -1,9 +1,163 @@
 {
   "enabled": true,
-  "appId": 0,
-  "imageUrl": "",
-  "tagline": "Enjoying the game? Check out this one too!",
-  "taglines": [],
+  "appId": 4991240,
+  "imageUrl": "https://raw.githubusercontent.com/999wakawaka999-create/promo-widget/main/konbini/header.jpg",
+  "tagline": "Check out our upcoming game!",
+  "taglines": [
+    {
+      "locale": "cs",
+      "text": "Podívejte se na naši připravovanou hru!"
+    },
+    {
+      "locale": "de",
+      "text": "Schau dir unser kommendes Spiel an!"
+    },
+    {
+      "locale": "es",
+      "text": "¡Echa un vistazo a nuestro próximo juego!"
+    },
+    {
+      "locale": "es-419",
+      "text": "¡Echa un vistazo a nuestro próximo juego!"
+    },
+    {
+      "locale": "fr",
+      "text": "Découvrez notre prochain jeu !"
+    },
+    {
+      "locale": "hu",
+      "text": "Nézd meg a készülő játékunkat!"
+    },
+    {
+      "locale": "id",
+      "text": "Lihat game kami yang akan datang!"
+    },
+    {
+      "locale": "it",
+      "text": "Dai un'occhiata al nostro prossimo gioco!"
+    },
+    {
+      "locale": "ja",
+      "text": "私たちの次回作をチェック！"
+    },
+    {
+      "locale": "ko",
+      "text": "저희의 출시 예정작을 확인해 보세요!"
+    },
+    {
+      "locale": "pl",
+      "text": "Sprawdź naszą nadchodzącą grę!"
+    },
+    {
+      "locale": "pt-BR",
+      "text": "Confira nosso próximo jogo!"
+    },
+    {
+      "locale": "ru",
+      "text": "Зацените нашу следующую игру!"
+    },
+    {
+      "locale": "th",
+      "text": "ลองดูเกมใหม่ที่กำลังจะมาของเราสิ!"
+    },
+    {
+      "locale": "tr",
+      "text": "Yakında çıkacak oyunumuza göz at!"
+    },
+    {
+      "locale": "uk",
+      "text": "Погляньте на нашу наступну гру!"
+    },
+    {
+      "locale": "vi",
+      "text": "Hãy xem trò chơi sắp ra mắt của chúng tôi!"
+    },
+    {
+      "locale": "zh-Hans",
+      "text": "快来看看我们即将推出的新游戏！"
+    },
+    {
+      "locale": "zh-Hant",
+      "text": "快來看看我們即將推出的新遊戲！"
+    }
+  ],
   "cta": "WISHLIST NOW!",
-  "ctas": []
+  "ctas": [
+    {
+      "locale": "cs",
+      "text": "PŘIDEJTE NA SEZNAM PŘÁNÍ!"
+    },
+    {
+      "locale": "de",
+      "text": "JETZT AUF DIE WUNSCHLISTE!"
+    },
+    {
+      "locale": "es",
+      "text": "¡AÑÁDELO A TU LISTA DE DESEADOS!"
+    },
+    {
+      "locale": "es-419",
+      "text": "¡AGRÉGALO A TU LISTA DE DESEADOS!"
+    },
+    {
+      "locale": "fr",
+      "text": "AJOUTEZ-LE À VOTRE LISTE DE SOUHAITS !"
+    },
+    {
+      "locale": "hu",
+      "text": "TEDD A KÍVÁNSÁGLISTÁDRA!"
+    },
+    {
+      "locale": "id",
+      "text": "TAMBAHKAN KE DAFTAR KEINGINAN!"
+    },
+    {
+      "locale": "it",
+      "text": "AGGIUNGILO ALLA LISTA DEI DESIDERI!"
+    },
+    {
+      "locale": "ja",
+      "text": "今すぐウィッシュリストに追加！"
+    },
+    {
+      "locale": "ko",
+      "text": "지금 찜 목록에 추가!"
+    },
+    {
+      "locale": "pl",
+      "text": "DODAJ DO LISTY ŻYCZEŃ!"
+    },
+    {
+      "locale": "pt-BR",
+      "text": "ADICIONE À LISTA DE DESEJOS!"
+    },
+    {
+      "locale": "ru",
+      "text": "ДОБАВЬТЕ В СПИСОК ЖЕЛАЕМОГО!"
+    },
+    {
+      "locale": "th",
+      "text": "เพิ่มลงในสิ่งที่อยากได้เลย!"
+    },
+    {
+      "locale": "tr",
+      "text": "İSTEK LİSTENE EKLE!"
+    },
+    {
+      "locale": "uk",
+      "text": "ДОДАЙТЕ ДО СПИСКУ БАЖАНЬ!"
+    },
+    {
+      "locale": "vi",
+      "text": "THÊM VÀO DANH SÁCH ƯỚC NGAY!"
+    },
+    {
+      "locale": "zh-Hans",
+      "text": "立即加入愿望单！"
+    },
+    {
+      "locale": "zh-Hant",
+      "text": "立即加入願望清單！"
+    }
+  ]
 }
