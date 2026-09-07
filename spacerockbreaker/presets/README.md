@@ -1,5 +1,9 @@
 # Space Rock Breaker — promo presets
 
+> ⚠ **INERT.** Space Rock Breaker reads `999wakawaka999-create/srb-promo` (root `promo.json`), not
+> this repo. Copying a preset over `../promo.json` changes nothing that players see. These are
+> staging/reference content; to go live they must be moved into `srb-promo`.
+
 Each folder is one ready-to-go promo: its art and its `promo.json`, complete and self-contained.
 Pick one by name ("show the smashcore deal", "switch to the supporter pack") and swap it in.
 

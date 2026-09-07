@@ -7,19 +7,27 @@ Editing a JSON here changes the shipped games without a build (raw URLs are CDN-
 | Folder     | Read by (shows the card) | Raw URL the game fetches                                                                  |
 |------------|--------------------------|-------------------------------------------------------------------------------------------|
 | `konbini/` | Konbini Cleanup (4951190)| https://raw.githubusercontent.com/999wakawaka999-create/promo-widget/main/konbini/promo.json |
-| `spacerockbreaker/` | Space Rock Breaker — **not live yet** | https://raw.githubusercontent.com/999wakawaka999-create/promo-widget/main/spacerockbreaker/promo.json |
+| `spacerockbreaker/` | ⚠ **NOBODY — inert, see below** | https://raw.githubusercontent.com/999wakawaka999-create/promo-widget/main/spacerockbreaker/promo.json |
 
 (`srb-promo` is a separate, older repo holding a Space Rock Breaker Supporter Pack promo — same
 DLC 5063290, different copy. Not read by anything in this repo. See
 `spacerockbreaker/presets/README.md` before reusing it.)
 
-`spacerockbreaker/` has content but is NOT wired: the game has no promo card yet — it is Unity,
-while the existing card is Unreal/C++. Nothing fetches this JSON, so it is inert until the card
-is built. It promotes SmashCore (4945040). Note the folder is named for the game that SHOWS the
-card, per the rule above — not for SmashCore, which is the game being advertised.
+## ⚠ `spacerockbreaker/` is INERT — do not edit it expecting results
 
-**No shipped fallback exists for this game yet.** Whoever builds the Unity card must mirror this
-`promo.json` into the game's shipped fallback, and keep the two identical from then on.
+**Space Rock Breaker has a working promo card, but it reads a DIFFERENT repo:**
+
+```
+https://raw.githubusercontent.com/999wakawaka999-create/srb-promo/main/promo.json
+```
+
+`srb-promo` serves one game, so its `promo.json` sits at the repo **root**, with art foldered by
+promoted app id (`4949230/`, `5063290/`). **To change what Space Rock Breaker shows, edit that
+file.** Nothing fetches anything under `spacerockbreaker/` here.
+
+This folder was created on 2026-09-08 on the mistaken assumption that the game had no card and
+would be wired to this repo. Its content and presets are kept as staging/reference only. Either
+migrate them into `srb-promo` or delete the folder — but do not treat it as live.
 
 ## Updating a game's promo
 
