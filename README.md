@@ -11,10 +11,13 @@ Editing a JSON here changes the shipped games without a build (raw URLs are CDN-
 
 (Super Retail Boss still reads the older `srb-promo` repo.)
 
-`spacerockbreaker/` is STAGED, not wired: art only, no `promo.json`, and the game has no promo
-card yet — it is Unity, while the existing card is Unreal/C++. It will promote SmashCore
-(4945040). Note the folder is named for the game that SHOWS the card, per the rule above — not
-for SmashCore, which is the game being advertised.
+`spacerockbreaker/` has content but is NOT wired: the game has no promo card yet — it is Unity,
+while the existing card is Unreal/C++. Nothing fetches this JSON, so it is inert until the card
+is built. It promotes SmashCore (4945040). Note the folder is named for the game that SHOWS the
+card, per the rule above — not for SmashCore, which is the game being advertised.
+
+**No shipped fallback exists for this game yet.** Whoever builds the Unity card must mirror this
+`promo.json` into the game's shipped fallback, and keep the two identical from then on.
 
 ## promo.json schema (keys case-insensitive)
 
