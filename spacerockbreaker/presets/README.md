@@ -42,7 +42,18 @@ To see what is live: `grep _preset promo.json`.
 `smashcore-deal` is the content published 2026-09-08 (`e11fcde`), moved here unchanged apart from
 the `imageUrl` now pointing into the preset folder.
 
-`srb-supporter-pack` was **written fresh on 2026-09-08**, not recovered — no earlier supporter-pack
-promo.json ever existed in this repo. Its capsule came from the game's marketing art
-(`LTP/SRB/small.png`); its copy and the DLC app id (5063290, confirmed against the Steam API) are
-new and have not been reviewed.
+`srb-supporter-pack` **diverges from an existing version in another repo.** A supporter-pack
+promo.json already lives at `999wakawaka999-create/srb-promo` (`main/promo.json`) — same DLC
+(5063290) and the same 17 locales, but different copy:
+
+| | `srb-promo` (existing) | this preset |
+|---|---|---|
+| tagline | "Check out the supporter pack!" | "Enjoying the game? Support us!" |
+| cta | "WISHLIST NOW!" | "GET THE SUPPORTER PACK!" |
+| ctas[] | **empty** | 17 locales |
+| imageUrl | `srb-promo/.../5063290/small_capsule.jpg` | this preset's `capsule.png` |
+
+The copy here was written on 2026-09-08 without knowledge of the `srb-promo` version; the capsule
+came from the game's marketing art (`LTP/SRB/small.png`). **Left as-is deliberately** — reconciling
+the two is a decision, not a merge. Before this preset ever goes live, decide which wording wins,
+and note that "WISHLIST NOW!" is wrong for an already-released DLC.
