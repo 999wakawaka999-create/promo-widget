@@ -2,83 +2,83 @@
   "enabled": true,
   "appId": 4991240,
   "imageUrl": "https://raw.githubusercontent.com/999wakawaka999-create/promo-widget/main/konbini/small_capsule.jpg",
-  "tagline": "Check out our upcoming game!",
+  "tagline": "Witch Cabin Cleanup out now!",
   "taglines": [
     {
       "locale": "cs",
-      "text": "Podívejte se na naši připravovanou hru!"
+      "text": "Witch Cabin Cleanup je venku!"
     },
     {
       "locale": "de",
-      "text": "Schau dir unser kommendes Spiel an!"
+      "text": "Witch Cabin Cleanup jetzt erhältlich!"
     },
     {
       "locale": "es",
-      "text": "¡Echa un vistazo a nuestro próximo juego!"
+      "text": "¡Witch Cabin Cleanup ya está disponible!"
     },
     {
       "locale": "es-419",
-      "text": "¡Echa un vistazo a nuestro próximo juego!"
+      "text": "¡Witch Cabin Cleanup ya está disponible!"
     },
     {
       "locale": "fr",
-      "text": "Découvrez notre prochain jeu !"
+      "text": "Witch Cabin Cleanup est disponible !"
     },
     {
       "locale": "hu",
-      "text": "Nézd meg a készülő játékunkat!"
+      "text": "Megjelent a Witch Cabin Cleanup!"
     },
     {
       "locale": "id",
-      "text": "Lihat game kami yang akan datang!"
+      "text": "Witch Cabin Cleanup kini tersedia!"
     },
     {
       "locale": "it",
-      "text": "Dai un'occhiata al nostro prossimo gioco!"
+      "text": "Witch Cabin Cleanup ora disponibile!"
     },
     {
       "locale": "ja",
-      "text": "私たちの次回作をチェック！"
+      "text": "Witch Cabin Cleanup 発売中！"
     },
     {
       "locale": "ko",
-      "text": "저희의 출시 예정작을 확인해 보세요!"
+      "text": "Witch Cabin Cleanup 정식 출시!"
     },
     {
       "locale": "pl",
-      "text": "Sprawdź naszą nadchodzącą grę!"
+      "text": "Witch Cabin Cleanup już w sprzedaży!"
     },
     {
       "locale": "pt-BR",
-      "text": "Confira nosso próximo jogo!"
+      "text": "Witch Cabin Cleanup já está disponível!"
     },
     {
       "locale": "ru",
-      "text": "Зацените нашу следующую игру!"
+      "text": "Witch Cabin Cleanup уже в продаже!"
     },
     {
       "locale": "th",
-      "text": "ลองดูเกมใหม่ที่กำลังจะมาของเราสิ!"
+      "text": "Witch Cabin Cleanup วางจำหน่ายแล้ว!"
     },
     {
       "locale": "tr",
-      "text": "Yakında çıkacak oyunumuza göz at!"
+      "text": "Witch Cabin Cleanup çıktı!"
     },
     {
       "locale": "uk",
-      "text": "Погляньте на нашу наступну гру!"
+      "text": "Witch Cabin Cleanup вже у продажу!"
     },
     {
       "locale": "vi",
-      "text": "Hãy xem trò chơi sắp ra mắt của chúng tôi!"
+      "text": "Witch Cabin Cleanup đã ra mắt!"
     },
     {
       "locale": "zh-Hans",
-      "text": "快来看看我们即将推出的新游戏！"
+      "text": "Witch Cabin Cleanup 现已发售！"
     },
     {
       "locale": "zh-Hant",
-      "text": "快來看看我們即將推出的新遊戲！"
+      "text": "Witch Cabin Cleanup 現已發售！"
     }
   ],
   "cta": "WISHLIST NOW!",
